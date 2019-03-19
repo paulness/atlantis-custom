@@ -192,3 +192,8 @@ RUN apk --no-cache add \
     gcloud config set component_manager/disable_update_check true && \
     gcloud config set metrics/environment github_docker_image && \
     gcloud --version
+
+
+
+# Custom CMD for Atlantis
+CMD ["server", "--silence-whitelist-errors"]
