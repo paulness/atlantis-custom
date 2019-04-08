@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:v0.5.1
+FROM runatlantis/atlantis:v0.7.0
 
 ARG EXE_FOLDER=/usr/local/bin
 
