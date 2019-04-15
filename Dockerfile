@@ -196,4 +196,4 @@ RUN apk --no-cache add \
 
 
 # Custom CMD for Atlantis
-CMD ["server", "--silence-whitelist-errors"]
+CMD ["server"]
